@@ -1,3 +1,6 @@
+# This is same as Stack_Queue/queue_linked_list.py and it us duplicated
+# to stop import error
+
 class Node:
     def __init__(self,value,n=None) -> None:
         self.value = value
@@ -45,16 +48,3 @@ class Queue:
     
     def empty(self):
         self.head = self.tail = None
-
-
-q = Queue()
-q.push(1)
-q.push(2)
-q.push(3)
-q.push(4)
-q.push(5)
-print(q)
-print(q.pop())
-print(q)
-print(q.peek())
-print(q.isEmpty())
