@@ -58,8 +58,6 @@ def minValueNode(node):
     return current
 
 def deleteNode(rootNode,value):
-    if rootNode is not None:
-        print(rootNode.value)
     if rootNode is None:
         return rootNode
     else:
